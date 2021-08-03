@@ -6,7 +6,7 @@ import Button from 'react-bootstrap/Button';
 import Form from 'react-bootstrap/Form';
 import Modal from 'react-bootstrap/Modal';
 
-const UserModalForm = (props) => {
+const UserFormModal = (props) => {
   const {
     isOpen, closeModal, modalTitle, handleUserSubmit,
   } = props;
@@ -81,4 +81,4 @@ const UserModalForm = (props) => {
   );
 };
 
-export default UserModalForm;
+export default UserFormModal;
