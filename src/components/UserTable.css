@@ -1,0 +1,56 @@
+.user-table {
+    max-height: 100vh;
+}
+
+.user-table table {
+    background-color: #212529;
+    position: absolute;
+    top: 7.5vh;
+}
+
+.user-table button {
+    background-color: transparent;
+    border-color: transparent;
+}
+
+.user-table button:active {
+    background-color: transparent;
+    border-color: transparent;
+}
+
+.user-table button:focus {
+    background-color: transparent;
+    border-color: transparent;
+    outline: none !important;
+    box-shadow: none !important;
+}
+
+.user-table button:active:focus {
+    background-color: transparent;
+    border-color: transparent;
+    outline: none !important;
+    box-shadow: none !important;
+}
+
+.user-table button:hover {
+    background-color: transparent;
+    border-color: transparent;
+}
+
+@media screen and (max-width: 299px) {
+    .user-table table {
+        top: 7.5vh;
+    }
+}
+
+@media screen and (min-width: 300px) and (max-width: 799px) {
+    .user-table table {
+        top: 7.5vh;
+    }
+}
+
+@media screen and (min-width: 800px) {
+    .user-table table {
+        top: 5vh;
+    }
+}
